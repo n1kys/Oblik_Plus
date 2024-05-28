@@ -85,6 +85,7 @@
             this.searchBoxSQL.Size = new System.Drawing.Size(599, 20);
             this.searchBoxSQL.TabIndex = 1;
             this.searchBoxSQL.Text = "select * from soldier";
+            this.searchBoxSQL.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchBoxSQL_KeyDown);
             // 
             // buttonSQL
             // 
@@ -274,7 +275,7 @@
             this.aboutDevelopersToolStripMenuItem,
             this.exitToolStripMenuItem,
             this.exitAppToolStripMenuItem});
-            this.fileToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fileToolStripMenuItem.Image")));
+            this.fileToolStripMenuItem.Image = global::Oblik_.Properties.Resources.picture2;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -283,7 +284,7 @@
             // 
             this.aboutDevelopersToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aboutDevelopersToolStripMenuItem.Image")));
             this.aboutDevelopersToolStripMenuItem.Name = "aboutDevelopersToolStripMenuItem";
-            this.aboutDevelopersToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.aboutDevelopersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutDevelopersToolStripMenuItem.Text = "About developers";
             this.aboutDevelopersToolStripMenuItem.Click += new System.EventHandler(this.aboutDevelopersToolStripMenuItem_Click);
             // 
